@@ -29,4 +29,4 @@ Please note: Due to the sensitive nature of the data, no images which expose the
 The WebScrapeLEads.py file was used to interact with a headless web browser which ran in the background. Firstly, it looped through each link on the search page. Then, it accessed the relevant elements of the webpage and appended them to a list. After this, some formatting of the collected data was require to remove html tags, and split into appropriate elements etc. Finally, the script transformed the collected information to a pandas dataframe and saved it as a csv file. 
 
 ### 2.2 Cleaning data in Excel
-
+Next, the data was opened in excel to check for data clenliness and integrity. A feature of the python script meant that any blank value boxes were filled with the next box title. For example, if the was no value for address, the value for this box would be telephone number, the title of the next box. This was easily removed in Excel by applying the find and replace function. All cells with these titles were searched for and replaced with 'NaN'. Final checking of the data (top, middle and final 100 rows) was carried out to ensure the data appeared uniform and reliable. 
