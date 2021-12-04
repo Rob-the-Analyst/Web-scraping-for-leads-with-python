@@ -24,3 +24,9 @@ Please note: Due to the sensitive nature of the data, no images which expose the
 * **Excel**
 
 # 2. Project Execution
+
+## 2.1 Scraping data using selenium packages from Python
+The WebScrapeLEads.py file was used to interact with a headless web browser which ran in the background. Firstly, it looped through each link on the search page. Then, it accessed the relevant elements of the webpage and appended them to a list. After this, some formatting of the collected data was require to remove html tags, and split into appropriate elements etc. Finally, the script transformed the collected information to a pandas dataframe and saved it as a csv file. 
+
+# 2.2 Cleaning data in Excel
+
